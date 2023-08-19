@@ -1,0 +1,55 @@
+*{
+ margin: 0;
+ padding: 0;
+ text-decoration: none;   
+}
+
+body{
+    background-color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.navbar-nav{
+    margin-right: 15px;
+
+}
+.navbar-nav a{
+    margin: 15px;
+    font-size: 22px;
+    color: blueviolet;
+     
+}
+.navbar .logo a{
+    margin: 15px;
+    font-size: 25px;
+    color:blueviolet
+
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home .join button{
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+.home .paragraf p{
+    font-size: 22px;
+}
