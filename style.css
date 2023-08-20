@@ -53,3 +53,71 @@ body{
 .home .paragraf p{
     font-size: 22px;
 }
+
+.about{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+}   
+
+.about img{
+    width: 400%;
+    
+    
+}
+
+.about .paragraf p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 85%;
+    
+}
+.contact{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .email button{
+    font-size: 20px;
+    padding: 10px 150px 10px 150px;
+    border-radius: 25px;
+    background-color: orange;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+    height: 50psx;
+}
+
+.contact .paragraf p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-right: 20px;
+    width: 70%;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.footer{
+    text-decoration: none;
+    padding-top: 80px;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer a{
+    justify-content: center;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
